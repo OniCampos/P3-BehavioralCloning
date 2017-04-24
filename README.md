@@ -23,6 +23,10 @@ The simulator can be downloaded from the links below:
 
 ## Details About Files In This Directory
 
+### `model.py`
+
+Python code used to load and preprocess the data extracted from the simulator, to define the architecture of the convolutional neural network and to train the model.
+
 ### `drive.py`
 
 Usage of `drive.py` requires you have saved the trained model as an h5 file, i.e. `model.h5`. See the [Keras documentation](https://keras.io/getting-started/faq/#how-can-i-save-a-keras-model) for how to create this file using the following command:
